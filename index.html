@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    
+  
+    
+
+
+
+
+
+
+
+
+    
+  </head>
+    <title>Home Page</title>
+    <style type="text/css">
+        *{
+          padding: 0px;
+          margin: 0px;
+        }
+        body{
+    
+          background-image: url("black.jpg");
+          margin-bottom: 20px;
+         
+
+        }
+
+        .color{
+            background-color:black !important;
+           height: 61px;
+           font-family: Garamond;
+           font-size: 15px;
+           font-weight: bolder;
+           padding-bottom: 1%;
+           color: cornsilk !important;
+           
+        }
+
+
+        .head{
+    
+     height : 400px;
+     color: white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     text-align: center;
+     box-sizing: border-box;
+     font-family: Courier New, serif ;
+     border: 3px solid wheat;
+  
+    
+
+     
+   
+    }
+    
+    .innerHead{
+      
+    width: 400px;
+    height: 230px;
+    margin: auto;
+   border-radius: 10px;
+    background-color:#CB202D;
+    padding-top: 10px;
+    margin-top: 90px;
+    font-size:35px;
+   }
+
+   .nav.navbar-nav.navbar-right li a {
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+  background-color: rgb(197, 39, 39);
+  color: black;
+  border: 2px salmon;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 20;
+  width: 100%;
+ 
+  
+  
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(243, 241, 245, 0.952), 
+      rgba(185, 165, 165, 0.87)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+
+.footertext {
+  color: #141212;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: xx-large;
+  
+}
+.carousel-caption{
+
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.circle:hover
+{
+        border-radius:100%;
+        border: black solid;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .nav.navbar-nav.navbar-right{display: none;
+        float: left;
+    display:block;
+    }
+.nav.navbar-nav.navbar-right li a{
+    color: yellow;
+
+}
+
+.innerHead{
+    width:50%;
+    height:40%;
+    font-size:20px;
+    margin-top:40%;
+    
+}
+
+
+
+.body{
+    background-size: 50%;
+}
+
+.carousel-caption h2{
+    font-size:13px;
+    color:palegreen;
+    margin-bottom:-20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: black;
+   
+}
+
+.modal-dialog{
+    max-width:400px;
+}
+
+.footertext b{
+    
+        font-size:23px;
+    
+}
+
+.footertext style{
+    background:green;
+}
+
+[class^="item"] {
+  width:130%;
+  height:130%;
+}
+
+
+
+
+
+
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top color" >
+        <div class="container">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand">
+                    <a href="index.html" target="_blank"> <img width="150px" height="40px"src="port.jpg" href="#" style="position: absolute;;top:6px"></a>
+  
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-link active" href="index.html" >HOME</a></li>
+                <li><a class="nav-link" href="portfolio2.html" target="_blank">ABOUT</a></li>
+                <li><a class="nav-link" href="portfolio3.html">RECOGNITIONS </a></li>
+                <li><span style="margin-left:3px"></span><button type="button" class="btn btn-danger navbar-btn" data-toggle="modal" data-target="#myModal1">CONNECT?</button></li>
+               
+            </ul>
+        </div>
+    </nav>
+   
+        
+    
+    <div class="head">
+        <div class="innerHead">
+        MARHABA AZIM<br>Associate Trainee at <br><img width="200px" height="30px"  src="avizva.png" href="#">
+       </div>
+      </div>
+      
+       
+       
+       <table>
+        <tr>
+            <td width="10%"  height="60%" style="background-image: url(black.jpg);padding:30px">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-left: 10%;padding-right: 10%; padding-bottom: 10px;">
+                    <!-- Indicators -->
+                   
+                  
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" >
+                      <div class="item active">
+                        <img src="sc1.jpg" width=100% height="8%" alt="Los Angeles"
+                        style="border: 2px solid black;">
+                        <div class="carousel-caption">
+                          <h2>My School : LADY IRWIN SCHOOL</h2>
+                  
+                        </div>
+                      </div>
+                  
+                      <div class="item">
+                        <img src="univ1.jpg"width="100%" height="8%" alt="Chicago" style="border: 2px solid black;">
+                    
+                        <div class="carousel-caption">
+                            
+                            <h2>My College : JAMIA MILLIA ISLAMIA</h2>
+                    
+                          </div>
+                      </div>
+                   <div class="item">
+                        <img src="of.jpg"width=100% height="8%" alt="New York" style="border: 2px solid black;">
+                        <div class="carousel-caption">
+                            <h2>My Workplace : AVIZVA</h2>
+                  </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                  
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  
+                       </td>
+                     </tr>
+                  
+                  
+                  
+                  <br>
+                   </table>
+                  
+                   <div class="modal fade" id="myModal1" role="dialog ">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h2 class="modal-title"><span style="color:blue">Lets Get In Touch!</span></h2>
+                        </div>
+              
+                        <div class="modal-body">
+                          <form action="" method="">
+                            <div class="form-group">
+                              <label for="email">Email Address</label>
+                              <input type="email" class="form-control" id="email">
+                              </div>
+                              <div class="form-group">
+                                  <label for="tel">Phone No</label>
+                                  <input type="tel" class="form-control" id="tel">  
+                                  </div>
+                      <input type ="submit" class="btn btn-default">
+                      </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+<br>
+
+                   
+                    <div id="footer">
+                        <div class="container">
+                            
+                      <div class="footertext" >HOBBIES</div>
+                                <br>
+                                  <div class="col-md-4 ">
+                                    <br>
+                                    <center>
+                                      <img src="prog.jpg" width="200px" height="200px" class="circle grow" alt="the-brains">
+                                      <br>
+                                      <br>
+                                      <br>
+
+                                      <div class="footertext" style="background: #CB202D; color:rgb(1, 10, 10)"><b style="color: rgb(130, 159, 238);">Programming</b><br><br><p style="font-size: medium; font-style: inherit;">I can create something that can be extremely useful to people that can make their life and work easier</p><br></div>
+                                     
+                                    </center>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <br>
+                                    <center>
+                                      <img src="travel.png"width="200px" height="200px" class="circle grow" alt="...">
+                                      <br>
+                                      <br>
+                                      <br>
+                                      <div class="footertext"style="background: #CB202D; color:rgb(1, 10, 10)"><b style="color: rgb(130, 159, 238);">Travelling</b><br><br>
+                                      <p style="font-size: medium; font-style: inherit;">  A new place with lots of fun distractions can work wonders. You’ll return home more at peace with yourself and your challenging situations</p><br></div>
+                                    </center>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <br>
+                                    <center>
+                                      <img src="sports.jpg"width="200px" height="200px" class="circle grow" alt="...">
+                                      <br>
+                                      <br>
+                                      <br>
+                                      <div class="footertext" style="background: #CB202D; color:rgb(1, 10, 10)"><b style="color: rgb(130, 159, 238);">Playing Sports</b><br><br>
+                                        <p style="font-size: medium; font-style: inherit;"> I’ve played sports since high school, so I joined a local softball league to stay in shape and meet new people in the area.</p><br></div>
+                                    </center>
+                                  </div>
+                                
+                               
+                        </div>
+                        <div class="row"style="background: black; margin-top: 20px; border: 3px solid wheat;">
+                          <p><center><a href="https://gmail.com/" target="_blank">azim.marhaba@gmail.com</a> <p class="footertext">Copyright 2020</p></center></p>
+                      </div>
+                    </div>
+                      </body>
+                      </html>
+
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                      
+                  
+                  
+                  
+                  
+                  
+          
+<!-- Footer -->

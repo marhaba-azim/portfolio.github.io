@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Recognitions</title>
+
+<style>
+ .nav.navbar-nav.navbar-right li a {
+  color: rgb(116, 146, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ body{
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ .color{
+            background-color:black !important;
+           height: 61px;
+           font-family: Garamond;
+           font-size: 15px;
+           font-weight: bolder;
+           padding-bottom: 1%;
+           color: cornsilk !important;
+           
+        }
+
+        .snote{
+
+border:12px solid #e9e3e4;
+max-width:100%;
+border-radius: 2px;
+
+
+}
+
+.snote h2,p{
+font-size:100%;
+font-weight:normal;
+font-weight: bolder;
+
+}
+
+.snote ul,li{
+list-style:none;
+}
+
+.snote ul{
+overflow:hidden;
+padding:3em;
+}
+
+.snote ul li a{
+text-decoration:none;
+color:#000;
+background:#ffc;
+display:block;
+height:15em;
+width:12em;
+padding:1em;
+
+
+box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+transform:rotate(-6deg);
+transition:transform .15s linear;
+}
+
+.snote ul li a{
+
+transform:rotate(4deg);
+
+position:relative;
+top:5px;
+background:#cfc;
+}
+
+.snote ul li a{
+
+transform:rotate(-3deg);
+
+position:relative;
+top:-5px;
+background:#ccf;
+}
+
+.snote ul li a{
+
+transform:rotate(5deg);
+
+position:relative;
+top:-10px;
+background:#fcf;
+}
+
+.snote ul li a:hover,ul li a:focus{
+
+
+box-shadow:10px 10px 7px rgba(0,0,0,.7);
+transform: scale(1.25);
+position:relative;
+z-index:5;
+}
+
+.snote ul li{
+margin:1em;
+float:left;
+}
+
+.snote ul li h2{
+font-size:160%;
+font-weight:bold;
+padding-bottom:0px;
+font-family:Oswald;
+text-align:center;
+color:#000;
+}
+
+.snote ul li p{
+font-family:'Shadows Into Light Two',arial,sans-serif;
+font-size:140%;
+color:#000;
+}
+
+
+.strip{
+            width: 100%;
+            height:70px;
+            margin-top: 60px;
+            padding-top: 2px;
+            border-radius: 10px;
+            background-color: rgb(28, 53, 105);
+            text-align: center;
+            font-size:40px;
+            font-weight: 200;
+            font-family:serif;
+            color: black;
+
+        }
+
+        .footertext {
+  color: #ffffff;
+  text-align: center;
+  font-family: cursive;
+  font-style: oblique;
+  font-size: xx-large;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+  background-color: rgb(197, 39, 39);
+  color: black;
+  border: 2px salmon;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1{
+  border-radius: 5px;
+  background-color: #5788a8;
+  padding: 20px;
+  border: 7px black;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav.navbar-nav.navbar-right{display: none;
+        float: left;
+    display:block;
+    }
+.nav.navbar-nav.navbar-right li a{
+    color: rgb(218, 205, 205);
+
+}
+
+
+
+.modal-dialog{
+    max-width:400px;
+  
+}
+
+.snote ul li a{
+margin-top:70px;
+height:15em;
+width:11em;
+background-color: tomato;
+    
+}
+
+.snote{
+    border:12px solid #5d5fbd;
+    border-radius: 2px;
+
+}
+
+}
+
+
+  
+</style>
+   </head>
+   
+
+  
+            
+            <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top color" >
+        <div class="container">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand">
+                    <a href="index.html"> <img width="150px" height="40px"src="port.jpg" href="#" style="position:relative;top:3px"></a>
+  
+            </div>
+            <ul class="nav navbar-nav navbar-right" style="color: cyan !important;">
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="nav-link active" href="portfolio2.html">ABOUT</a></li>
+                <li><a href="portfolio3.html">RECOGNITIONS</a></li>
+                <li><button type="button" class="btn btn-danger navbar-btn" data-toggle="modal" data-target="#myModal1">CONNECT?</button></li>
+               
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="strip">
+       Appreciation Posts.
+    </div>
+    
+    
+    
+    
+    
+    <div class="snote">
+    <ul class="bounce animated">
+      <li>
+        <a href="#LINK 1">
+          <h2>Note#1</h2><hr />
+          <p></p>
+        </a>
+      </li>
+      <li>
+        <a href="#LINK 2">
+          <h2>Note #2</h2><hr />
+          <p></p>
+        </a>
+      </li>
+      <li>
+        <a href="#LINK 3">
+          <h2>Note #3</h2><hr />
+          <p></p>
+        </a>
+      </li>
+      <li>
+        <a href="#LINK 4">
+          <h2>Note #4</h2><hr />
+          <p></p>
+        </a>
+      </li>
+      <li>
+        <a href="#LINK 5">
+          <h2>Note #5</h2><hr />
+          <p></p>
+        </a>
+      </li>
+      <li>
+          <a href="#LINK 6">
+          <h2>Note #6</h2><hr />
+          <p></p>
+        </a>
+      </li>
+       
+                
+    </ul>
+    </div>
+    
+    <body>
+        <div class="strip">Wanna Collaborate?</div>
+      <br>
+      <div class="container1">
+        <form action="#">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="Country" name="country" placeholder="India">
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Suggestions:</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="Suggestions" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+
+      <div class="modal fade" id="myModal1" role="dialog ">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><span style="color:blue">Lets Get In Touch!</span></h2>
+            </div>
+      
+            <div class="modal-body">
+              <form action="" method="">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                      <label for="tel">Phone No</label>
+                      <input type="tel" class="form-control" id="tel">  
+                      </div>
+          <input type ="submit" class="btn btn-default" style="float:left">
+          </form>
+            </div>
+          </div>
+          </div>
+        </div>
+      
+          
+    <div id="footer">
+      <div class="row" style="background: black; margin-top: 20px;">
+        <p ><center><a href="https://gmail.com/" target="_blank">azim.marhaba@gmail.com</a> <p class="footertext">Copyright 2020</p></center></p>
+      </div>
+      </div>
+
+</body>
